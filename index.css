@@ -1,0 +1,31 @@
+div{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.check-inp{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: aliceblue;
+    color: red;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+input:checked+label{
+    text-decoration: line-through;
+}
+
+li:hover > .delete-btn{
+    display: inline;
+}
